@@ -1,0 +1,29 @@
+@keyframes selfani {
+  0%{
+  	color: red
+    font-size: 12px;
+  } 
+  25%{
+    font-size: 18px;
+  }
+  50%{
+    font-size: 20px;
+  }
+
+  75% {
+    font-size: 26px;
+  }
+  100%{
+    color: blue;
+    font-size: 36px;
+  }
+
+  
+
+  
+}
+
+.selfani {
+  -webkit-animation-name: selfani;
+  animation-name: selfani;
+}
